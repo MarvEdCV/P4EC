@@ -150,7 +150,8 @@ RepoJSON macro IniRepo,FinRepo,TitRepo,FinTit,Datos,CierreDatos, nameFile,fecha,
     mov ah,bufferhora[6] 
     mov al,bufferhora[7] 
     mov segu[23], ah
-    mov segu[24], al 
+    mov segu[24], al  
+    
     FileWrite  hr, hr, handle
     FileWrite  min, min, handle
     FileWrite  segu, segu, handle
